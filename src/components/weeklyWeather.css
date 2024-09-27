@@ -1,0 +1,23 @@
+.weekly-cards {
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+  margin: 3rem 0rem;
+}
+
+.day-card {
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+  width: 100px;
+}
+
+.day-card p {
+  margin: 5px 0;
+}
+
+.weather-icon {
+  width: 40px;
+  height: 40px;
+}

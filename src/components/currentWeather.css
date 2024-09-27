@@ -1,0 +1,38 @@
+.forecast-card {
+  padding: 10px;
+}
+.current-weather-info-with-icon {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+.current-weather-degree {
+  font-weight: 200;
+  font-size: 4rem;
+}
+
+.city-image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.city-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+}
+
+.country-overlay {
+  position: absolute;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 5px 10px;
+  border-radius: 5px;
+}

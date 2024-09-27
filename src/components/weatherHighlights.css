@@ -1,0 +1,47 @@
+.highlights {
+  margin-top: 20px;
+}
+
+.highlights-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.highlight-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  height: 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.highlight-box p {
+  margin: 0;
+}
+
+.highlight-box p:first-child {
+  font-size: 16px;
+  color: silver;
+  font-weight: 500;
+  text-align: left;
+}
+
+.highlight-box p:last-child {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.highlight-box .uv-index,
+.highlight-box .wind-status,
+.highlight-box .sunrise-sunset,
+.highlight-box .humidity,
+.highlight-box .visibility,
+.highlight-box .air-quality {
+  font-size: 24px;
+  font-weight: bold;
+}

@@ -1,0 +1,54 @@
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.search-bar form {
+  display: flex;
+  gap: 10px;
+}
+
+.input-container {
+  position: relative;
+}
+
+.search-bar input {
+  width: 70%;
+  padding: 10px 40px 10px 40px;
+  border: none;
+  background-image: url("../Icon/search-interface-symbol.png");
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  background-size: 20px 20px;
+  border-radius: 25px;
+}
+
+.search-bar input:focus {
+  outline: none;
+}
+
+.icon-button {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.icon-button img {
+  width: 20px;
+  height: 20px;
+}
+
+.search-bar button {
+  padding: 5px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}

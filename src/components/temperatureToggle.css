@@ -1,0 +1,58 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tabs {
+  display: flex;
+  gap: 10px;
+}
+
+.tab {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 16px;
+  color: silver;
+}
+
+.active-tab {
+  color: black;
+  text-decoration: underline;
+}
+
+.temperature-toggle {
+  display: flex;
+  gap: 2rem;
+}
+.temperature-toggle-degree {
+  display: flex;
+  gap: 1rem;
+}
+
+.temperature-toggle button {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.temperature-toggle .active {
+  background-color: #007bff;
+  color: white;
+}
+
+.profile-picture img {
+  width: 40px;
+  height: 40px;
+  border-radius: 1rem;
+  object-fit: cover;
+}
